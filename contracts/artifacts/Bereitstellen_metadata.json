@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "by",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "color",
+						"type": "string"
+					}
+				],
+				"name": "ColorChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "color",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDeployer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_by",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_yourNewColor",
+						"type": "string"
+					}
+				],
+				"name": "setColor",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Bereitstellen dattabot test",
+			"kind": "dev",
+			"methods": {},
+			"title": "Bereitstellen",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Bereitstellen.sol": "Bereitstellen"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Bereitstellen.sol": {
+			"keccak256": "0x0887bf6fe6dc9f439313ad96f9c64e6b051fa4a56c093a66ddeab53912d64534",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f73c5a890f6405b618cf921507a7cccb7bb4555fa588f7ee8d916fc20ba9d533",
+				"dweb:/ipfs/QmRTqbrBgfaDosRTuK4PPuRtRyjtgT39bnT9tqLPFzBe5t"
+			]
+		}
+	},
+	"version": 1
+}
